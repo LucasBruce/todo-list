@@ -1,0 +1,21 @@
+{
+  "name": "hello-list",
+  "version": "1.0.0",
+  "description": "project to demonstrate todo list",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "api": "json-server --watch backend/db.json --port 3001",
+    "all": "npm-run-all --parallel serve api"
+  },
+  "author": "LucasBruce",
+  "license": "MIT",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "json-server": "^0.17.0",
+    "npm-run-all": "^4.1.5",
+    "parcel": "^2.7.0",
+    "process": "^0.11.10"
+  }
+}
