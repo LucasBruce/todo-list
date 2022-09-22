@@ -1,3 +1,8 @@
+ALUNO: LUCAS MATHEUS BRUCE DA SILVA
+MATRÍCULA: 2021232010026
+
+Projeto todo-list:
+
 # run todo-list
 
 Passo1: cd todo-list/;
